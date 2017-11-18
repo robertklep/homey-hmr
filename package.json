@@ -1,0 +1,27 @@
+{
+  "name": "homey-hmr",
+  "version": "1.0.0",
+  "description": "Homey Hot Module Replacement",
+  "bin": {
+    "homey-hmr": "./bin/homey-hmr"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "homey",
+    "debugger",
+    "development",
+    "tool"
+  ],
+  "author": "Robert Klep <robert@klep.name>",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^1.7.0",
+    "chrome-remote-interface": "^0.25.3",
+    "debouncing-batch-queue": "^1.0.2",
+    "debug": "^3.1.0",
+    "deglob": "^2.1.0",
+    "docopt": "^0.6.2"
+  }
+}

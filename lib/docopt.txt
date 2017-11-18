@@ -1,0 +1,10 @@
+
+homey-hmr – Homey Hot Module Replacement
+
+Usage:
+  homey-hmr [options] ENDPOINT
+
+Options:
+  -h --help                   Show this screen
+  -v --version                Show version
+  -w --watch <dir>            Directory to watch for changes [default: .]
